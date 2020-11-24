@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D68219256C3AC700EBC33F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D68218256C3AC700EBC33F /* Helper.swift */; };
 		31F42F3F256C1F60000C27C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42F3E256C1F60000C27C4 /* AppDelegate.swift */; };
 		31F42F41256C1F60000C27C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42F40256C1F60000C27C4 /* SceneDelegate.swift */; };
 		31F42F43256C1F60000C27C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42F42256C1F60000C27C4 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D68218256C3AC700EBC33F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		31F42F3B256C1F60000C27C4 /* Qrgenrator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qrgenrator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F42F3E256C1F60000C27C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F42F40256C1F60000C27C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				31F42F47256C1F64000C27C4 /* Assets.xcassets */,
 				31F42F49256C1F64000C27C4 /* LaunchScreen.storyboard */,
 				31F42F4C256C1F64000C27C4 /* Info.plist */,
+				31D68218256C3AC700EBC33F /* Helper.swift */,
 			);
 			path = Qrgenrator;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				31F42F43256C1F60000C27C4 /* ViewController.swift in Sources */,
 				31F42F3F256C1F60000C27C4 /* AppDelegate.swift in Sources */,
 				31F42F41256C1F60000C27C4 /* SceneDelegate.swift in Sources */,
+				31D68219256C3AC700EBC33F /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Qrgenrator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +461,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Qrgenrator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
